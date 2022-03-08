@@ -1,0 +1,26 @@
+LOGEARSE EN GIT
+git config --local user.email tuemail@ejemplo.com
+git config --local user.name "nombre"
+
+CREAR UN NUEVO REPOSITORIO LOCAL
+git init
+
+AÑADIR UN ARCHIVO AL AREA DE PREPARACION
+git add <temp.txt>
+
+AÑADIR TODOS LOS ARCHIVOS AL AREA DE PREPARACION
+git add .
+
+CREAR INSTANTANEA
+git commit –m “El mensaje que acompaña al commit va aquí”
+
+
+
+MOSTRAR ESTADO DE LOS ARCHIVOS
+git status -s
+
+VER LAS INSTANTANEAS GUARDADAS
+git log --oneline
+
+SUBIR REPOSITORIO A GITHUB DESDE LOCAL
+git remote add origin https://github.com/Simon-Griman/PrimerRepositorio.git

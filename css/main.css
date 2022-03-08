@@ -10,3 +10,7 @@ h1{
 p{
      color: #fff;
 }
+
+details:hover{
+     cursor: pointer;
+}
